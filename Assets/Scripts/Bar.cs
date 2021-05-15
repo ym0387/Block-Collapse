@@ -22,7 +22,7 @@ public class Bar : MonoBehaviour
             //Barの座標が20以下（壁より内側）である場合には移動を実施します
             if (pos.x <= 20)
             {
-                this.transform.Translate(0.3f, 0f, 0f);
+                this.transform.Translate(0.35f, 0f, 0f);
             }
         }
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -30,7 +30,7 @@ public class Bar : MonoBehaviour
             //Barの座標が-20以上（壁より内側）である場合には移動を実施します。
             if (pos.x >= -20)
             {
-                this.transform.Translate(-0.3f, 0f, 0f);
+                this.transform.Translate(-0.35f, 0f, 0f);
             }
         }
         
